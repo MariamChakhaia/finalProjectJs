@@ -10,7 +10,7 @@ moveTo();
 import { scrollTo } from "./scrollTo.js";
 scrollTo();
 
-import { formValidation, numberValidation } from "./formvalidation.js";
+import { formValidation, numberValidation } from "./scripts/formvalidation.js";
 const form = document.getElementById("form");
 form.addEventListener("submit", formValidation);
 
@@ -52,5 +52,5 @@ filter2();
 import { currentYearFnc } from "./currentYear.js";
 currentYearFnc();
 
-import { localStorage } from "./localStorage.js";
-localStorage();
+import { localStorageFnc } from "./localStorage.js";
+localStorageFnc();
