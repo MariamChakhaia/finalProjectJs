@@ -1,16 +1,16 @@
 @font-face {
   font-family: regular;
-  src: url("/fonts/Roboto-Regular.ttf");
+  src: url(./fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: bold;
-  src: url("/fonts/Roboto-Bold.ttf");
+  src: url(./fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
   font-family: medium;
-  src: url("/fonts/Roboto-Medium.ttf");
+  src: url(./fonts/Roboto-Medium.ttf);
 }
 
 :root {
@@ -971,19 +971,18 @@ footer {
     width: 70%;
     left: 10%;
   }
-  
+
   #consent-popup.hidden {
     opacity: 0;
   }
-  
+
   #consent-popup p {
     font-size: 16px;
   }
-  
+
   #consent-popup button {
     font-size: 16px;
   }
-
 }
 
 @media (max-width: 769px) and (min-width: 684px) {
@@ -1330,19 +1329,18 @@ footer {
     width: 70%;
     left: 10%;
   }
-  
+
   #consent-popup.hidden {
     opacity: 0;
   }
-  
+
   #consent-popup p {
     font-size: 16px;
   }
-  
+
   #consent-popup button {
     font-size: 16px;
   }
-
 }
 
 @media (max-width: 683px) and (min-width: 540px) {
@@ -1725,15 +1723,15 @@ footer {
     width: 70%;
     left: 10%;
   }
-  
+
   #consent-popup.hidden {
     opacity: 0;
   }
-  
+
   #consent-popup p {
     font-size: 16px;
   }
-  
+
   #consent-popup button {
     font-size: 16px;
   }
@@ -2167,19 +2165,19 @@ footer {
     margin-right: 10px;
   }
 
-   #consent-popup {
+  #consent-popup {
     width: 70%;
     left: 5%;
   }
-  
+
   #consent-popup.hidden {
     opacity: 0;
   }
-  
+
   #consent-popup p {
     font-size: 16px;
   }
-  
+
   #consent-popup button {
     font-size: 16px;
   }
@@ -2627,15 +2625,15 @@ footer {
     width: 70%;
     left: 0;
   }
-  
+
   #consent-popup.hidden {
     opacity: 0;
   }
-  
+
   #consent-popup p {
     font-size: 13px;
   }
-  
+
   #consent-popup button {
     font-size: 13px;
   }
@@ -2884,23 +2882,24 @@ footer {
     width: 100%;
   }
 
-  .form-div{
-    width:100%;
+  .form-div {
+    width: 100%;
   }
 
   .form-div input {
     width: 100%;
   }
 
-  .form-div label{
+  .form-div label {
     font-size: 14px;
   }
 
-  .form-div1 label, .form-div1 p{
+  .form-div1 label,
+  .form-div1 p {
     font-size: 14px;
   }
-  
-  .form-div1 p{
+
+  .form-div1 p {
     width: 60%;
   }
 
@@ -3030,7 +3029,8 @@ footer {
     width: 100px;
   }
 
-  #newPasswordField, #repPasswordField {
+  #newPasswordField,
+  #repPasswordField {
     width: 80px;
   }
 
@@ -3113,7 +3113,7 @@ footer {
     width: 80%;
   }
 
-  #footer-container{
+  #footer-container {
     display: flex;
     flex-direction: column;
     height: 450px;
@@ -3134,15 +3134,15 @@ footer {
     bottom: 100px;
     z-index: 3;
   }
-  
+
   #consent-popup.hidden {
     opacity: 0;
   }
-  
+
   #consent-popup p {
     font-size: 13px;
   }
-  
+
   #consent-popup button {
     font-size: 13px;
   }
