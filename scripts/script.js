@@ -51,3 +51,6 @@ filter2();
 
 import { currentYearFnc } from "./currentYear.js";
 currentYearFnc();
+
+import { localStorage } from "./localStorage.js";
+localStorage();
