@@ -69,14 +69,10 @@ export function filter2() {
         let name = document.createElement("h2");
         name.innerText = `${el.first_name} ${el.last_name}`;
         name.style.fontFamily = "var(--medium)";
-        // name.style.fontSize = "18px";
-        // name.style.padding = "10px";
         name.classList.add("aboutusName");
 
         let email = document.createElement("h3");
         email.style.fontFamily = "var(--regular)";
-        // email.style.fontSize = "16px";
-        // email.style.padding = "10px";
         email.classList.add("aboutusEmail");
 
         email.innerText = el.email;
