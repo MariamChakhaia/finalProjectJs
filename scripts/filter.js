@@ -33,7 +33,7 @@ export function filter() {
 
   users();
 
-  function filterUsers(searchItem) {
+  function filterBooks(searchItem) {
     listArrays.forEach((el) => {
       if (
         el.innerText.toLowerCase().includes(searchItem.trim().toLowerCase())
@@ -46,7 +46,7 @@ export function filter() {
   }
 
   input.addEventListener("keyup", function () {
-    filterUsers(this.value);
+    filterBooks(this.value);
   });
 }
 
