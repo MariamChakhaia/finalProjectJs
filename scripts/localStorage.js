@@ -1,6 +1,6 @@
 "use strict";
 
-export function localStorageFnc() {
+
 const storageType = localStorage;
 const consentPropertyName = "jdc_consent";
 
@@ -22,4 +22,4 @@ window.onload = () => {
     consentPopup.classList.add("hidden");
   }
 };
-}
+
